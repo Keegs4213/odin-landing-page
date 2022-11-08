@@ -3,6 +3,19 @@ body {
     background-color: #1F2937;
 }
 
+.container-one {
+    background-color: #1F2937;
+}
+
+.header-links {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: flex-end;
+    align-items: top;
+    gap: 16px;
+    color: #F9FAF8;
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -10,7 +23,10 @@ h1 {
     font: "roboto" , sans-serif;
 }
 
-
+button {
+    background-color: blue;
+    color:#F9FAF8
+}
 
 
 footer {
