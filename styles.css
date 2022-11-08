@@ -5,6 +5,11 @@ body {
 
 .container-one {
     background-color: #1F2937;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin: 100px;
+
 }
 
 .header-links {
@@ -14,6 +19,16 @@ body {
     align-items: top;
     gap: 16px;
     color: #F9FAF8;
+    margin: 100px;
+}
+
+.image-one {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: top;
+    height: 300px;
+    width: 300px;
 }
 
 h1 {
@@ -23,14 +38,22 @@ h1 {
     font: "roboto" , sans-serif;
 }
 
+p {
+   size: 18px;
+   color:#E5E7EB; 
+}
+
 button {
     background-color: blue;
-    color:#F9FAF8
+    color:#F9FAF8;
+    height: 40px;
+    width: 84px;
 }
 
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    color: #F9FAF8;
 }
