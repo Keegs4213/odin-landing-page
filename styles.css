@@ -23,12 +23,14 @@ body {
 }
 
 .image-one {
+    /* Image isn't pushed up to top of page */
     display: flex;
-    flex-grow: 0;
+    flex-shrink: 0;
     flex-direction: column;
-    justify-content: top;
+    justify-content: flex-start;
     height: 300px;
     width: 300px;
+    gap: 30px;
 }
 
 h1 {
