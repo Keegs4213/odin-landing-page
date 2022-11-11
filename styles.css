@@ -1,9 +1,13 @@
 
 body {
     background-color: #1F2937;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: "roboto" , sans-serif;
 }
 
-.container-one {
+.hero {
     background-color: #1F2937;
     display: flex;
     flex-direction:column;
@@ -19,11 +23,11 @@ body {
     align-items: top;
     gap: 16px;
     color: #F9FAF8;
-    margin: 100px;
+    margin-right: 100px;
+    margin-top: -250px;
 }
 
 .image-one {
-    /* Image isn't pushed up to top of page */
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
@@ -33,11 +37,21 @@ body {
     gap: 30px;
 }
 
+.hero-image {
+    height:1000px;
+    width: 500px;
+    margin-left:1000px;
+    margin-bottom:1300px;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
-    font: "roboto" , sans-serif;
+    font-family: "roboto" , sans-serif;
 }
 
 p {
@@ -50,8 +64,17 @@ button {
     color:#F9FAF8;
     height: 40px;
     width: 84px;
+    margin-left: 100px;
 }
 
+
+ h2 {
+    color: white;
+ }
+.flower-tiles {
+    background-color: #3882F6;
+
+}
 
 footer {
     display: flex;
