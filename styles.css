@@ -65,11 +65,9 @@ button {
 }
 
 .image {
-    display: flex;
+    display:flex;
+    justify-content: center;        
     align-items: center;
-    justify-content: center;
-    height: 500px;
-    width: 500px;
 }
 
 /* FLOWER TILES */
@@ -110,15 +108,62 @@ main h2 {
     gap: 8px;
 }
 
+.flower-image {
+    max-width: auto;
+    max-height: auto;
+}
+
 #sunflower {
-    height: 200px;
+    max-height: 200;
+    max-width: 210px;
+}
+
+#orchid-image {
     max-width: 200px;
 }
+
+#lily {
+    max-width: 210px;
+    height:190px;
+}
+
+#flower-description {
+    color:black;
+}
+
+
+
+/* QUOTE */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quote em {
+    font-size: 48px;
+    font-weight: 100;
+    color: #1F2937
+}
+
 
 a {
     text-decoration: none;
     color:#F9FAF8;
 }
+
 
 
 .hero-image {
@@ -150,13 +195,11 @@ p {
  h2 {
     color: white;
  }
-.flower-tiles { 
-
-}
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #F9FAF8;
+    background-color: #1f2937;
 }
