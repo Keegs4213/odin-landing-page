@@ -1,6 +1,11 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: "roboto" , sans-serif;
+    font-family: "Roboto" , sans-serif;
 }
 
 /* HEADER */
@@ -17,7 +22,9 @@ header {
     align-items: center;
     justify-content: center;
     height: 150px;
+    mix-blend-mode: hard-light;
 }
+
 
 .nav {
     display: flex;
@@ -65,9 +72,7 @@ button {
 }
 
 .image {
-    display:flex;
-    justify-content: center;        
-    align-items: center;
+   
 }
 
 /* FLOWER TILES */
