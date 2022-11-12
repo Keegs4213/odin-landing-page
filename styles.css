@@ -21,7 +21,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 140px;
+    margin-top: -35px;
     mix-blend-mode: hard-light;
 }
 
@@ -29,7 +30,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: top;
 }
 
 .nav ul {
@@ -51,6 +52,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .welcome .right {
@@ -68,11 +70,12 @@ button {
     color:#F9FAF8;
     height: 40px;
     width: 84px;
-    margin-left: 100px;
+    
 }
 
-.image {
-   
+#image {
+   width: 400px;
+   height: 250px;
 }
 
 /* FLOWER TILES */
