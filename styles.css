@@ -11,8 +11,12 @@ header {
 
 
 /* NAV */
-.logo {
-    
+#logo {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
 }
 
 .nav {
@@ -36,58 +40,95 @@ header {
     gap: 2em;
 }
 
-.hero .left {
+.welcome .left {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.hero .right {
+.welcome .right {
     flex-shrink: 0;
     width: 50%;
 }
-
-
-
-
-
-
-
-
-
 .hero {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    margin: 100px;
-
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
 }
 
-.header-links {
-    background-color: #1F2937;
-    display:flex;
-    justify-content: flex-end;
-    align-items: top;
-    gap: 16px;
-    color: #F9FAF8;
-    margin-right: 100px;
-    margin-top: -250px;
-    list-style: none;
+button {
+    background-color: blue;
+    color:#F9FAF8;
+    height: 40px;
+    width: 84px;
+    margin-left: 100px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+/* FLOWER TILES */
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0;
+    margin-top: 36px;
+}
+
+main h2 {
+    font-size:36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+
+
+.flower-tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: center;
+    margin: 36px 0 90px 0;
+    background-color: white;
+}
+
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;        
+    gap: 8px;
+}
+
+#sunflower {
+    height: 200px;
+    max-width: 200px;
 }
 
 a {
     text-decoration: none;
+    color:#F9FAF8;
 }
 
 
 .hero-image {
+    /*
     height:1000px;
     width: 500px;
     margin-left:1000px;
     margin-bottom:1300px;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: auto; */
 
 }
 
@@ -103,20 +144,13 @@ p {
    color:#E5E7EB; 
 }
 
-button {
-    background-color: blue;
-    color:#F9FAF8;
-    height: 40px;
-    width: 84px;
-    margin-left: 100px;
-}
+
 
 
  h2 {
     color: white;
  }
-.flower-tiles {
-    background-color: #3882F6;
+.flower-tiles { 
 
 }
 
