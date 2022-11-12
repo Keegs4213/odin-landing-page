@@ -66,16 +66,17 @@ header {
 }
 
 button {
-    background-color: blue;
+    background-color: #3882F6;
     color:#F9FAF8;
     height: 40px;
-    width: 84px;
-    
+    width: 120px;
+    border-radius: 8px;
+    padding: 7px;
 }
 
 #image {
-   width: 400px;
-   height: 250px;
+   width: 500px;
+   height: 300px;
 }
 
 /* FLOWER TILES */
@@ -167,6 +168,38 @@ main h2 {
 }
 
 
+/* Mailing List */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF
+}
+
+label {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color:#F9FAF8;
@@ -210,4 +243,5 @@ footer {
     justify-content: center;
     color: #F9FAF8;
     background-color: #1f2937;
+    padding: 20px;
 }
